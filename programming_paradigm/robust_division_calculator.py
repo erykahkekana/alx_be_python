@@ -11,7 +11,8 @@ def safe_divide(numerator, denominator):
             return "Error: Cannot divide by zero."
 
         # Perform the division
-        return f"The result of the division is {num / denom:.2f}"
-
+        return f"The result of the division is {num / denom}"
+    
     except ValueError:
         return "Error: Please enter numeric values only."
+
